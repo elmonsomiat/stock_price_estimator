@@ -1,0 +1,7 @@
+requests
+pandas
+yfinance
+yahooquery
+langchain_ollama
+reportlab
+markdown
