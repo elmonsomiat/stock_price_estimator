@@ -41,3 +41,4 @@ def create_pdf_from_dict(data_dict, output_file):
 
     # Build the PDF
     doc.build(story)
+    return story

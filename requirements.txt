@@ -5,3 +5,6 @@ yahooquery
 langchain_ollama
 reportlab
 markdown
+streamlit
+
+

@@ -5,7 +5,7 @@ from src.agent_utils import load_model
 from src.utils import create_pdf_from_dict
 def get_report(stock, model, financials_api_key):
     stock_symbol = get_stock_symbol(stock)
-
+    print(stock_symbol)
     stock = yf.Ticker(stock_symbol)
 
     # Get industry and market cap
